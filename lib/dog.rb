@@ -12,7 +12,7 @@ require "pry"
 
   def self.all
     @@all
-
+    binding.pry
   end
 
   def self.clear_all
