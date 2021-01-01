@@ -12,12 +12,16 @@ require "pry"
 
   def self.all
     @@all
+    array_all=[ ]
+    @@all.each do |i|
+      array_all << "#{i}"
+    end
+
     binding.pry
   end
 
   def self.clear_all
-    @@all= [ ]
-    @@all
+    @@all.clear
   end
 
   def self.print_all
