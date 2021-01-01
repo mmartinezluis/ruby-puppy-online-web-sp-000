@@ -22,7 +22,7 @@ require "pry"
 
   def self.print_all
     puts @@all
-    binding.pry
+
 
   end
 
