@@ -16,8 +16,8 @@ require "pry"
     @@all.each do |i|
       array_all << "#{i}"
     end
-    string_all =array_all.join(" ")
-    
+    string_all = array_all.join(" ")
+
     binding.pry
   end
 
