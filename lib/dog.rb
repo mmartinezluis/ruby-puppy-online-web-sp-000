@@ -17,7 +17,7 @@ require "pry"
       array_all << "#{i}"
     end
     string_all =array_all.join(" ")
-    string_all.
+    
     binding.pry
   end
 
