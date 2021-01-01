@@ -22,8 +22,6 @@ require "pry"
 
   def self.print_all
     puts @@all
-
-
   end
 
   def save
